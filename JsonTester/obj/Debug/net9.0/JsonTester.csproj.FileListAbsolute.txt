@@ -1,0 +1,42 @@
+C:\Users\jack\Desktop\New folder (6)\JsonTester\bin\Debug\net9.0\JsonTester.exe
+C:\Users\jack\Desktop\New folder (6)\JsonTester\bin\Debug\net9.0\JsonTester.deps.json
+C:\Users\jack\Desktop\New folder (6)\JsonTester\bin\Debug\net9.0\JsonTester.runtimeconfig.json
+C:\Users\jack\Desktop\New folder (6)\JsonTester\bin\Debug\net9.0\JsonTester.dll
+C:\Users\jack\Desktop\New folder (6)\JsonTester\bin\Debug\net9.0\JsonTester.pdb
+C:\Users\jack\Desktop\New folder (6)\JsonTester\obj\Debug\net9.0\JsonTester.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jack\Desktop\New folder (6)\JsonTester\obj\Debug\net9.0\JsonTester.AssemblyInfoInputs.cache
+C:\Users\jack\Desktop\New folder (6)\JsonTester\obj\Debug\net9.0\JsonTester.AssemblyInfo.cs
+C:\Users\jack\Desktop\New folder (6)\JsonTester\obj\Debug\net9.0\JsonTester.csproj.CoreCompileInputs.cache
+C:\Users\jack\Desktop\New folder (6)\JsonTester\obj\Debug\net9.0\JsonTester.dll
+C:\Users\jack\Desktop\New folder (6)\JsonTester\obj\Debug\net9.0\refint\JsonTester.dll
+C:\Users\jack\Desktop\New folder (6)\JsonTester\obj\Debug\net9.0\JsonTester.pdb
+C:\Users\jack\Desktop\New folder (6)\JsonTester\obj\Debug\net9.0\JsonTester.genruntimeconfig.cache
+C:\Users\jack\Desktop\New folder (6)\JsonTester\obj\Debug\net9.0\ref\JsonTester.dll
+C:\Users\Mihai\Desktop\New folder (6)\Jsontester\bin\Debug\net9.0\JsonTester.exe
+C:\Users\Mihai\Desktop\New folder (6)\Jsontester\bin\Debug\net9.0\JsonTester.deps.json
+C:\Users\Mihai\Desktop\New folder (6)\Jsontester\bin\Debug\net9.0\JsonTester.runtimeconfig.json
+C:\Users\Mihai\Desktop\New folder (6)\Jsontester\bin\Debug\net9.0\JsonTester.dll
+C:\Users\Mihai\Desktop\New folder (6)\Jsontester\bin\Debug\net9.0\JsonTester.pdb
+C:\Users\Mihai\Desktop\New folder (6)\Jsontester\obj\Debug\net9.0\JsonTester.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mihai\Desktop\New folder (6)\Jsontester\obj\Debug\net9.0\JsonTester.AssemblyInfoInputs.cache
+C:\Users\Mihai\Desktop\New folder (6)\Jsontester\obj\Debug\net9.0\JsonTester.AssemblyInfo.cs
+C:\Users\Mihai\Desktop\New folder (6)\Jsontester\obj\Debug\net9.0\JsonTester.csproj.CoreCompileInputs.cache
+C:\Users\Mihai\Desktop\New folder (6)\Jsontester\obj\Debug\net9.0\JsonTester.dll
+C:\Users\Mihai\Desktop\New folder (6)\Jsontester\obj\Debug\net9.0\refint\JsonTester.dll
+C:\Users\Mihai\Desktop\New folder (6)\Jsontester\obj\Debug\net9.0\JsonTester.pdb
+C:\Users\Mihai\Desktop\New folder (6)\Jsontester\obj\Debug\net9.0\JsonTester.genruntimeconfig.cache
+C:\Users\Mihai\Desktop\New folder (6)\Jsontester\obj\Debug\net9.0\ref\JsonTester.dll
+C:\Users\Mihai\Desktop\RestaurantSim\JsonTester\bin\Debug\net9.0\JsonTester.exe
+C:\Users\Mihai\Desktop\RestaurantSim\JsonTester\bin\Debug\net9.0\JsonTester.deps.json
+C:\Users\Mihai\Desktop\RestaurantSim\JsonTester\bin\Debug\net9.0\JsonTester.runtimeconfig.json
+C:\Users\Mihai\Desktop\RestaurantSim\JsonTester\bin\Debug\net9.0\JsonTester.dll
+C:\Users\Mihai\Desktop\RestaurantSim\JsonTester\bin\Debug\net9.0\JsonTester.pdb
+C:\Users\Mihai\Desktop\RestaurantSim\JsonTester\obj\Debug\net9.0\JsonTester.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mihai\Desktop\RestaurantSim\JsonTester\obj\Debug\net9.0\JsonTester.AssemblyInfoInputs.cache
+C:\Users\Mihai\Desktop\RestaurantSim\JsonTester\obj\Debug\net9.0\JsonTester.AssemblyInfo.cs
+C:\Users\Mihai\Desktop\RestaurantSim\JsonTester\obj\Debug\net9.0\JsonTester.csproj.CoreCompileInputs.cache
+C:\Users\Mihai\Desktop\RestaurantSim\JsonTester\obj\Debug\net9.0\JsonTester.dll
+C:\Users\Mihai\Desktop\RestaurantSim\JsonTester\obj\Debug\net9.0\refint\JsonTester.dll
+C:\Users\Mihai\Desktop\RestaurantSim\JsonTester\obj\Debug\net9.0\JsonTester.pdb
+C:\Users\Mihai\Desktop\RestaurantSim\JsonTester\obj\Debug\net9.0\JsonTester.genruntimeconfig.cache
+C:\Users\Mihai\Desktop\RestaurantSim\JsonTester\obj\Debug\net9.0\ref\JsonTester.dll
