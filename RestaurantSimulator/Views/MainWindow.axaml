@@ -23,10 +23,20 @@
             
             <Button Content="Start Simulation"
                     Click="OnStartSimulation" 
-                               Margin="8,8,0,8" Foreground= "#3D2B1F"
+                Margin="8,8,0,8" 
+                Foreground= "#3D2B1F"
            Background = "#B19279"
             FontWeight="Bold" 
              CornerRadius="15"/>
+             
+             <Button Content="Stop Simulation"
+        Command="{Binding StopSimulationCommand}"
+        Margin="8,0,0,8"
+        Foreground="#3D2B1F"
+        Background="#B19279"
+        FontWeight="Bold"
+        CornerRadius="15"/>
+
 
             <TextBlock Text="Available Recipes:"
                        FontWeight="Bold"

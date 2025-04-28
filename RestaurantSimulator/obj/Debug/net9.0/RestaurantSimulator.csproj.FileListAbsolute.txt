@@ -358,3 +358,4 @@ C:\Users\Mihai\Desktop\RestaurantSim\RestaurantSimulator\obj\Debug\net9.0\refint
 C:\Users\Mihai\Desktop\RestaurantSim\RestaurantSimulator\obj\Debug\net9.0\Restaura.D7B7BB49.Up2Date
 C:\Users\Mihai\Desktop\RestaurantSim\RestaurantSimulator\obj\Debug\net9.0\RestaurantSimulator.genruntimeconfig.cache
 C:\Users\Mihai\Desktop\RestaurantSim\RestaurantSimulator\obj\Debug\net9.0\ref\RestaurantSimulator.dll
+C:\Users\Mihai\Desktop\RestaurantSim\RestaurantSimulator\obj\Debug\net9.0\RestaurantSimulator.sourcelink.json

@@ -1,5 +1,6 @@
 ﻿namespace RestaurantSimulator.ViewModels;
 
+using CommunityToolkit.Mvvm.Input;
 using ReactiveUI;
 using System;
 using System.Collections.Generic;
@@ -19,7 +20,7 @@ public class MainWindowViewModel : ReactiveObject
     public ObservableCollection<ClientTable> ClientTables { get; } = new();
     private Random _random = new Random();
     public ObservableCollection<string> RecipeHistory { get; } = new();
-
+public ICommand StopSimulationCommand { get; }
 
 
 
@@ -55,6 +56,8 @@ public class MainWindowViewModel : ReactiveObject
 
     }
 });
+StopSimulationCommand = new RelayCommand(() => StopSimulation());
+
 
         foreach (var recipe in _dataLoader.Recipes)
         {
@@ -123,6 +126,39 @@ public class MainWindowViewModel : ReactiveObject
 
         }
     }
+public void StopSimulation()
+{
+    // 1. Golește stațiile
+    Stations.Clear();
+
+    // 2. Golește mesele
+    ClientTables.Clear();
+
+    // 3. Golește istoricul de rețete
+    RecipeHistory.Clear();
+
+    // 4. Reîncarcă stațiile
+    _stationManager = new StationManager(3);
+    foreach (var station in _stationManager.GetAllStations())
+    {
+        station.ProgressChanged += OnStationProgressChanged;
+        Stations.Add(station);
+    }
+
+    // 5. Reîncarcă mesele
+    for (int i = 0; i < 4; i++)
+    {
+        ClientTables.Add(new ClientTable
+        {
+            RequestedRecipe = "Waiting...",
+            IsWaiting = false,
+            IsServed = false
+        });
+    }
+
+    Console.WriteLine("Simulation stopped and reset!");
+}
+
 
 
 
