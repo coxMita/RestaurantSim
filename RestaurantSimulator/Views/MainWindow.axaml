@@ -39,8 +39,8 @@
         
 <Button Content="{Binding SpeedButtonText}" 
         Command="{Binding ToggleSpeedCommand}" 
-        Background="Orange" 
-        Foreground="White"
+      Foreground="#3D2B1F"
+        Background="#B19279"
         Margin="8,0,0,8"
         FontWeight="Bold"
         CornerRadius="15"/>
