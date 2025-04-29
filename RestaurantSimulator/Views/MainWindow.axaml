@@ -36,6 +36,14 @@
         Background="#B19279"
         FontWeight="Bold"
         CornerRadius="15"/>
+        
+<Button Content="{Binding SpeedButtonText}" 
+        Command="{Binding ToggleSpeedCommand}" 
+        Background="Orange" 
+        Foreground="White"
+        Margin="8,0,0,8"
+        FontWeight="Bold"
+        CornerRadius="15"/>
 
 
             <TextBlock Text="Available Recipes:"

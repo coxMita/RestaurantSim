@@ -23,6 +23,18 @@ public class MainWindowViewModel : ReactiveObject
 public ICommand StopSimulationCommand { get; }
 
 
+public ICommand ToggleSpeedCommand { get; }
+private bool _isSpeedBoosted;
+public bool IsSpeedBoosted
+{
+    get => _isSpeedBoosted;
+    set
+    {
+        _isSpeedBoosted = value;
+        this.RaisePropertyChanged(nameof(SpeedButtonText));
+    }
+}
+public string SpeedButtonText => IsSpeedBoosted ? "Normal Speed" : "Speed x2";
 
     public MainWindowViewModel()
     {
@@ -57,6 +69,7 @@ public ICommand StopSimulationCommand { get; }
     }
 });
 StopSimulationCommand = new RelayCommand(() => StopSimulation());
+ToggleSpeedCommand = new RelayCommand(() => ToggleSpeed());
 
 
         foreach (var recipe in _dataLoader.Recipes)
@@ -157,6 +170,21 @@ public void StopSimulation()
     }
 
     Console.WriteLine("Simulation stopped and reset!");
+}
+
+public void ToggleSpeed()
+{
+    IsSpeedBoosted = !IsSpeedBoosted;
+    Console.WriteLine($"Speed boost toggled: {(IsSpeedBoosted ? "2x Speed" : "Normal Speed")}");
+foreach (var station in _stationManager.GetAllStations())
+{
+    station.ViewModelInstance = this;
+    station.AdjustTiming(IsSpeedBoosted);
+    station.ProgressChanged += OnStationProgressChanged;
+}
+
+
+
 }
 
 
